@@ -1,12 +1,10 @@
-package Test_script;
+package generic;
 
 import java.io.IOException;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import generic.Base_Test;
-import generic.ReadExcel;
 import pom_scripts.Homepage;
 import pom_scripts.Loginpage;
 import pom_scripts.Welcomepage;
@@ -36,14 +34,17 @@ public class LoginTest extends Base_Test{
 				l.getLoginbutton().click();
 	}
 	
-				@Test(dependsOnMethods = "testcase2")
+				/*@Test(dependsOnMethods = "testcase2")
 				public void home() throws Throwable
 				{
 				//HOME PAGE		
 				Homepage h=new Homepage(driver);
 				h.getDigital().click();
-				Thread.sleep(5000);
+	             Thread.sleep(5000);
 
 				
-	}
+	}*/
+				
 }
+
+

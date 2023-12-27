@@ -38,10 +38,7 @@ public class RegisterTest extends Base_Test {
 		r.getConfpwd().sendKeys(confirmpwd);
 		Thread.sleep(3000);
 		r.getRegbutton().click();
-		
-		
-		
-		
+			
 	}
 	}
 	
